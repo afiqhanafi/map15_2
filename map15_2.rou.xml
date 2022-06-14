@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Apr 19 05:03:52 2022 by Eclipse SUMO duarouter Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map15_2.net.xml"/>
+        <route-files value="map15_2.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="map15_2.rou.xml"/>
+        <alternatives-output value="map15_2.rou.alt.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+        <vType id="roadtaxrenew" maxSpeed="10"  minGap="1"/>
+ 	<vType id="expiredroadtax" maxSpeed="10" minGap="1"/>
+
+    <vehicle id="1" type="roadtaxrenew" depart="1.00" color='blue'>
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="2" type="roadtaxrenew" depart="2.00" color='blue'>
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="3" type="roadtaxrenew" depart="3.00" color='blue'>
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="4" type="expiredroadtax" depart="4.00" color='red' maxSpeed="10" veh_model="hond" veh_col="noir">
+        <route edges="5028958#4.250 gneE0 gneE1 5028958#6 5028958#7 5028958#8"/>
+        <stop lane="gneE0_0" endPos="20" until="50"/>
+    </vehicle>
+    <vehicle id="6" type="roadtaxrenew" depart="6.00" color='blue'>
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="9" type="expiredroadtax" depart="9.00" color='red' maxSpped="10" veh_model="toyt" veh_col="blanc">
+        <route edges="5028958#4.250 gneE0 gneE1 5028958#6 5028958#7 5028958#8"/>
+        <stop lane="gneE0_0" endPos="10" until="50"/>
+    </vehicle>
+    <vehicle id="11" type="roadtaxrenew" depart="11.00" color='blue'>
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="12" type="roadtaxrenew" depart="12.00" color='blue'>
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="13" type="roadtaxrenew" depart="13.00" color='blue'>
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="16" type="roadtaxrenew" depart="16.00" color='blue'>
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="22" type="roadtaxrenew" depart="22.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="23" type="roadtaxrenew" depart="23.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="25" depart="25.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="26" depart="26.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="27" depart="27.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="28" depart="28.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="29" depart="29.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="30" depart="30.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="31" depart="31.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="32" depart="32.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="34" depart="34.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="35" depart="35.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="36" depart="36.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="38" depart="38.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="39" depart="39.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="40" depart="40.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="41" depart="41.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="42" depart="42.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="43" depart="43.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="44" depart="44.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="45" depart="45.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="47" depart="47.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="48" depart="48.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+    <vehicle id="49" depart="49.00">
+        <route edges="5028958#4.250 5028958#5 5028958#6 5028958#7 5028958#8"/>
+    </vehicle>
+</routes>
